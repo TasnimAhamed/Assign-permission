@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    //All Permission 
+    $('#all').click(function () {
+        $('.all').prop('checked', this.checked);
+    });
+    $('.all').change(function () {
+        var check = ($('.all').filter(":checked").length == $('.all').length);
+        $('#all').prop("checked", check);
+    });
     //Dashboard Area
     $('#dashboard').click(function () {
         $('.dashboard').prop('checked', this.checked);
