@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+p{
+    margin: 0!important;
+}
+.cmn-design{
+    padding:25px 0px;
+    border-bottom: 1px solid #dee2e6!important
+}
+.cmn-checkbox p,
+.setting-text p{
+    font-size: 19px;
+    font-weight: 500;
+}
+.main-text h3{
+    font: size 16px;
+    font-weight: 400;
+    color: black;
+}
+.cmn-checkbox{
+    display: flex;
+    align-items: center;
+}
+.cmn-checkbox input{
+    width:25px;
+    height:25px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.form-check-input{
+    border:1px solid #038D08!important;
+}
+.form-check-input:checked {
+    background-color: #038D08;
+    border-color: #038D08;
+}
+.report-checkbox,
+.group-checkbox,
+.administration-checkbox{
+    margin:12px 0px;
+}
+.group-checkbox-child,
+.administration-checkbox-child{
+    padding:20px 0px;
+}
